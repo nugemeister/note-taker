@@ -3,7 +3,7 @@ const express = require('express');
 const db = require('../db/db.json');
 const fs = require('fs');
 const notesRoute = express.Router();
-const {v1: uuidv1} = require('uuid');
+// const {v1: uuidv1} = require('uuid');
 
 // GET
 notesRoute.get('/', (req, res) => {

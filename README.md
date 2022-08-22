@@ -1,7 +1,7 @@
 # Note Taker
 
 ## Project Explained
-The purpose of this project is to create an application called Note Taker that can be used to write and save notes, which uses an Express.js back end and saves / retrieves note data from a JSON file.
+The purpose of this project is to create an application that can be used to write and save notes, which uses an Express.js back end and saves and retrieves note data from a JSON file.
 <br></br>
 ## Success Criteria
 
@@ -43,12 +43,6 @@ THEN I am presented with empty fields to enter a new note title and the note’s
 Enter the command `npm run test` to run the associated tests.
 
 <br></br>
-## Video Demo
-
-The following video shows the web application's appearance and functionality:
-
-![This is a recording of the live webpage.](./images/Demo-team-profile-builder.mp4)
-<br></br>
 
 ## Provided Mock-Up for Reference
 
@@ -57,3 +51,8 @@ The following image was provided as a directional mock-up for reference.
 ![This is a screenshot of the provided mock-up image for reference.](./images/mockup.png)
 <br></br>
 
+
+## Link to Deployed Application
+
+The following link takes you to the deployed application: https://an-note-taker-app.herokuapp.com/
+<br></br>

@@ -4,6 +4,7 @@ const path = require('path');
 
 const app = express ();
 
+// setting up port
 const PORT = process.env.PORT || 3001;
 
 app.use(express.json());
