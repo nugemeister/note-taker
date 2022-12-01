@@ -1,1 +1,7 @@
-[]
+[
+    {
+      "title": "Sample Note - Click here!",
+      "text": "Welcome to the Note Taker!\nTo add a note click the + icon located in the upper right corner.",
+      "id": "1"
+    }
+  ]
