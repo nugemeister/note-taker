@@ -20,14 +20,9 @@ app.use(express.static('public'));
 
 // Routes Section
 
-// bad request response
-app.use((req, res) => {
-    res.sendStatus(404).end();
-});
-
 // homepage ('/') GET
 app.get('/', (req, res) => 
-    res.sendFile(path.join(__dirname, 'public/index.html'))
+    res.sendFile(path.join(__dirname, '/public/index.html'))
 );
 
 // '/notes' GET
@@ -74,6 +69,10 @@ app.post('/api/notes', (req, res) => {
     }
 });
 
+// bad request response
+app.use((req, res) => {
+    res.sendStatus(404).end();
+});
 
 // listen for server request
 app.listen(PORT, () => {

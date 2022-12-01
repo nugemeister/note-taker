@@ -1,7 +1,12 @@
 [
-    {
-      "title": "Sample Note - Click here!",
-      "text": "Welcome to the Note Taker!\nTo add a note click the + icon located in the upper right corner.",
-      "id": "1"
-    }
-  ]
+  {
+    "title": "Sample Note - Click here!",
+    "text": "Welcome to the Note Taker!\nTo add a note click the + icon located in the upper right corner.",
+    "id": "1"
+  },
+  {
+    "title": "Test",
+    "text": "Hello it's Ali\n",
+    "id": "7fe0c58e-6cb9-4631-986a-ef1219beb6ba"
+  }
+]
